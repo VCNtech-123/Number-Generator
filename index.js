@@ -26,7 +26,7 @@ numInput.addEventListener('blur', () =>{
 numButton.addEventListener('click', () => {
     const numValue = Number(numInput.value);
     
-    for (let i = 0; i < numValue; i++) {
+    for (let i = 1; i <= numValue; i++) {
         const newElement = document.createElement('p');
         newElement.textContent = i;
         newElement.style.fontSize = '40px';
@@ -54,3 +54,4 @@ numButton.addEventListener('click', () => {
         generatedNumbers.appendChild(newElement);
     }
 })
+
