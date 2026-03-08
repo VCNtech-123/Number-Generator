@@ -1,0 +1,48 @@
+
+.heading {
+    text-align: center;
+    font-family: sans-serif
+}
+
+.numberGenerator {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.warning {
+    margin: 0px;
+    margin-left: 440px;
+}
+
+#numInput {
+    width: 30rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-color: lightgreen;
+    outline: none;  
+}
+
+#numInput:focus {
+    outline: none;
+    border-color: lightgreen;
+}
+
+#numButton {
+    background-color: lightgreen;
+    color: white;
+    border-width: 0px;
+    padding: auto 2rem;
+    width: 12rem;
+    font-size: large;
+}
+
+.generatedNumbers {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+}
